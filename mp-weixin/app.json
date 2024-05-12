@@ -1,0 +1,111 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-recharge/pay-confirm",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/shop-order/logistics",
+    "pages/news-detail/news-detail",
+    "pages/huiyuan/list",
+    "pages/huiyuan/add-or-update",
+    "pages/huiyuan/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/shangpinfenlei/list",
+    "pages/shangpinfenlei/add-or-update",
+    "pages/shangpinfenlei/detail",
+    "pages/shangpinxinxi/list",
+    "pages/shangpinxinxi/add-or-update",
+    "pages/shangpinxinxi/detail",
+    "pages/nongchanpinjiandu/list",
+    "pages/nongchanpinjiandu/add-or-update",
+    "pages/nongchanpinjiandu/detail",
+    "pages/zhunongxinxi/list",
+    "pages/zhunongxinxi/add-or-update",
+    "pages/zhunongxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussshangpinxinxi/list",
+    "pages/discussshangpinxinxi/add-or-update",
+    "pages/discussshangpinxinxi/detail",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "农业电商服务系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#0688FB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shangpinxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "商品信息"
+      },
+      {
+        "pagePath": "pages/messages/list",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message_act.png",
+        "text": "留言板"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "static/tabs/cart.png",
+        "selectedIconPath": "static/tabs/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
